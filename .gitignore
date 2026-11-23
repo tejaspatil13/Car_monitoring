@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# Data that must not go to git (big / private)
+recordings/
+output/
+ROI/
+*.mp4
+*.avi
+
+# Model weights (get them with: python download_models.py)
+models/*.pt
+models/reid/*.pth
+models/reid/*.pt

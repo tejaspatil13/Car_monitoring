@@ -1,0 +1,17 @@
+# Core
+numpy>=1.26
+opencv-python>=4.9
+Pillow>=10.0
+ultralytics>=8.3          # YOLO11 car detection + ByteTrack tracking
+
+# PyTorch - on an NVIDIA GPU install the CUDA build FIRST, see README:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2
+torchvision>=0.17
+
+# Number plates (detector + OCR, ONNX)
+fast-alpr>=0.4            # brings open-image-models + fast-plate-ocr
+onnxruntime>=1.17         # on NVIDIA GPU replace with: onnxruntime-gpu
+
+# Car model + colour (CLIP)
+open_clip_torch>=2.24
